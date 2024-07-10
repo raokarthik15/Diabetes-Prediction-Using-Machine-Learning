@@ -198,7 +198,7 @@ def build_model(df):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=split_size, random_state=parameter_random_state)
     
     # Quote by the Data Professor
-    progress_bar.progress(30, "The best way to learn Data Science, is to do Data Science - Data Professor (This might take a whille)")
+    progress_bar.progress(30, "The best way to learn Data Science, is to do Data Science - Data Professor (This might take a while)")
 
     # Applying Parameters to the RFC model and fitting using GridSearchCV
     rfc = RandomForestClassifier(

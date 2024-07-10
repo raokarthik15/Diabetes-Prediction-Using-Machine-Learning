@@ -78,7 +78,7 @@ def get_important_features(model):
     num = 1
     # unpacking and returning in a string format
     for (feature, importance) in important_features_sorted.items():
-        important_features += f"{num}. {feature} = {format(importance*100, ".2f")}%\n"
+        important_features += f"{num}. {feature} = {format(importance*100, '.2f')}%\n"
         num+=1
     return important_features
 
